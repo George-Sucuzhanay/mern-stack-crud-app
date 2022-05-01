@@ -3,7 +3,6 @@ const express = require("express")
 const { default: mongoose } = require("mongoose")
 
 // connect to Mongo and create new DB
-// mongodb+srv://m001-student:m001-mongodb-basics@sandbox.al2fi.mongodb.net/Database?retryWrites=true&w=majority"
 // mongodb://127.0.0.1:27017/itemsDatabase
 
 // node seed/items.js
