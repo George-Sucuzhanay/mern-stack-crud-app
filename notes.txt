@@ -1,0 +1,41 @@
+Creating a MERN Full-Stack Web Application
+
+Creating our Backend:
+
+1) mkdir <filename>
+2) npm init -y
+3) mkdir controllers db models routes seed
+4) touch db/index.js models/item.js routes/index.js controllers/index.js seed/items.js
+5) touch app.js server.js
+6) npm i express mongoose cors morgan nodemon
+
+db/Index.js
+this is where our connection to our database is made
+1) import mongoose
+2) Declare MONGODB_URL variable
+
+models/item.js
+this is our schema structure
+
+seed/items.js
+this is where our data is stored
+
+app.js
+this is our server logic 
+
+server.js
+this is where we will start our server
+
+controllers/index.js
+this controls the actions for our CRUD
+Controllers establish a connection between the router and models
+
+and where we will run our crud functions back to our mongodb database
+
+Side Notes:
+- Version 5 of mongoose is more widely used at this moment
+
+
+Front End:
+
+npx create-react-app client
